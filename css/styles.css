@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* MODO MOBILE */
+
+h3 {
+    position: absolute;
+    width: 133px;
+    height: 25px;
+    left: 24px;
+    top: 20px;
+   
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+#image {
+    position: absolute;
+    width: 286,83px;
+    height: 238px;
+    left: 9.5%;
+    right: 11.78%;
+    top: 23%;
+    bottom: 63.44%;
+}
+
+#image img {
+    width: 286,83px;
+    height: 238px;
+}
+
+#body {
+    position: absolute;
+    left: 12px;
+    top: 407px;
+}
+
+#body h1 {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+
+    color: #333333;
+}
+
+#body p {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+
+    color: #4F4F4F;
+}
+
+#btn {
+    position: absolute;
+    left: 14px;
+    top: 756px;
+}
+
+#btn button {
+    width: 216px;
+    height: 68px;
+    background: #333333;
+    border: none;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#btn button:hover {
+    cursor: pointer;
+}
+
+.footer {
+    position: relative;
+    text-align: center;
+    top: 908px;
+    padding-bottom: 10px;
+}
+
+.footer p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+
+    color: #BDBDBD;
+}
+
+.footer span {
+    font-family: Montserrat;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+/* MODO TABLET */
+
+@media (min-width: 768px) {
+    h3 {
+        width: 180px;
+        font-size: 30px;
+        top: 50px;
+        left: 118px;
+    }
+    #image {
+        width: 410px;
+        height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        top: 20%;
+    }
+    #image img {
+        width: 410px;
+        height: 350px;
+    }
+    #body {
+        width: 520px;
+        left: 118px;
+        top: 580px;
+    }
+    #body h1 {
+        font-size: 56px;
+        line-height: 85px;
+        padding-left: 14px;
+    }
+    #body p {
+        width: 370px;
+        padding-left: 14px;
+        font-size: 21px;
+        line-height: 30px;
+    }
+    #btn {
+        left: 134px;
+        top: 970px;
+    }
+    .footer {
+        top: 1170px;
+    }
+}
+
+
+/* MODO DESKTOP */
+
+@media (min-width: 1024px) {
+    h3 {
+        top: 20px;
+        left: 77px;
+        font-size: 24px;
+    }
+    #image {
+        top: 225px;
+        left: 77px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #image img {
+        width: 539.22px;
+        height: 447.43px;
+    }
+    #body {
+        width: 586px;
+        height: 190px;
+        left: 700px;
+        top: 180px;
+    }
+    #body h1 {
+        font-size: 64px;
+        line-height: 95px;
+    }
+    #body p { 
+        width: 381px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    #btn {
+        left: 720px;
+        top: 643px;
+    }
+    .footer {
+        top: 900px;
+    }
+}
